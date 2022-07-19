@@ -1748,7 +1748,7 @@ video css
   display: flex;
   justify-content: center;
   border-radius: 5px;
-  height: 500px;
+  /* height: 500px; */
   z-index: 100;
 }
 
@@ -1769,11 +1769,11 @@ video css
   transform: translate(-50%, -50%);
 }
 
-@media all and (max-width: 767px) {
+/* @media all and (max-width: 767px) {
   .video-wrapper {
     height: 250px;
   }
-}
+} */
 
 /* ===================
 membership css 
@@ -4217,7 +4217,7 @@ img.lazy {
   width: 100%;
   height: 50vh;
 }
-.video-wrapper iframe {
+.video-wrapper video {
   width: 100%;
   height: auto;
 }
