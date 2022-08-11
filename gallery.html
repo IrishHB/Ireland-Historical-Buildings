@@ -32,9 +32,9 @@
     </div>
 
     <!-- Header -->
-    <header class="home-3 header" style="background-color: #252930">
+    <header class="home-3 header">
       <div class="main-navigation">
-        <nav class="navbar navbar-expand-lg" style="background-color: #252930">
+        <nav class="navbar navbar-expand-lg">
           <div class="container">
             <a class="navbar-brand" href="index.html">
               <img
@@ -61,11 +61,34 @@
             <div class="collapse navbar-collapse" id="main_nav">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link" href="index.html">Home</a>
+                  <a class="nav-link active" href="index.html">Home</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html#aboutUs">About Us</a>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    data-bs-toggle="dropdown"
+                    >historical buildings</a
+                  >
+                  <ul class="dropdown-menu fade-up">
+                    <li>
+                      <a class="dropdown-item" href="building-1.html"
+                        >Royal Hospital Kilmainham</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="building-2.html"
+                        >St. Audoen's Church</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="building-3.html"
+                        >Trinity College Dublin</a
+                      >
+                    </li>
+                  </ul>
                 </li>
+
                 <li class="nav-item dropdown">
                   <a
                     class="nav-link dropdown-toggle"
@@ -111,39 +134,22 @@
                     </li>
                   </ul>
                 </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    data-bs-toggle="dropdown"
-                    >historical buildings</a
-                  >
-                  <ul class="dropdown-menu fade-up">
-                    <li>
-                      <a class="dropdown-item" href="building-1.html"
-                        >Royal Hospital Kilmainham</a
-                      >
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="building-2.html"
-                        >St. Audoen's Church</a
-                      >
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="building-3.html"
-                        >Trinity College Dublin</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="gallery.html">Gallery</a>
-                </li>
                 <li class="nav-item">
                   <a class="nav-link" href="ireland-map.html">Ireland Map</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="index.html#contactUs">Contact Us</a>
+                  <a class="nav-link" href="#aboutUs"
+                    >About Us</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="gallery.html">Gallery</a>
+                </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link" href="#contactUs"
+                    >Contact Us</a
+                  >
                 </li>
               </ul>
             </div>
